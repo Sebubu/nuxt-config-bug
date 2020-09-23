@@ -25,6 +25,9 @@ export default {
     return {
       config: this.$config
     }
+  },
+  mounted() {
+    console.log('$root', this.$root);
   }
 }
 </script>
